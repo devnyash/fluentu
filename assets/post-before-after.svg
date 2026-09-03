@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <rect width="1600" height="900" fill="#FFFFFF"/>
+  
+  <!-- accent bar -->
+  <rect x="0" y="0" width="1600" height="6" fill="#0D9488"/>
+  
+  <!-- kicker -->
+  <text x="200" y="120" font-family="'Bahnschrift', 'Inter', sans-serif" font-size="16" font-weight="600" fill="#0F766E" letter-spacing="3">FLUENTU  ·  BEFORE &amp; AFTER</text>
+  
+  <!-- headline -->
+  <text x="200" y="220" font-family="'Segoe UI Variable Display', 'Inter', sans-serif" font-size="64" font-weight="700" fill="#0F172A" letter-spacing="-2">What generic translation</text>
+  <text x="200" y="290" font-family="'Segoe UI Variable Display', 'Inter', sans-serif" font-size="64" font-weight="700" fill="#DC2626" letter-spacing="-2">gets wrong.</text>
+  
+  <!-- before/after grid -->
+  <!-- BEFORE label -->
+  <rect x="200" y="360" width="560" height="40" rx="8" fill="#FEF2F2"/>
+  <text x="220" y="388" font-family="'Bahnschrift', 'Inter', sans-serif" font-size="14" font-weight="600" fill="#DC2626">BEFORE (generic AI)</text>
+  
+  <!-- AFTER label -->
+  <rect x="840" y="360" width="560" height="40" rx="8" fill="#F0FDFA"/>
+  <text x="860" y="388" font-family="'Bahnschrift', 'Inter', sans-serif" font-size="14" font-weight="600" fill="#0F766E">AFTER (Fluentu)</text>
+  
+  <!-- row 1: terminology -->
+  <rect x="200" y="410" width="560" height="100" rx="12" fill="#FAFAFA" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="220" y="445" font-family="'Bahnschrift', 'Inter', sans-serif" font-size="12" font-weight="600" fill="#64748B">TERM: "authentication token"</text>
+  <text x="220" y="475" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="18" fill="#0F172A">"Ключ входа в систему"</text>
+  <text x="220" y="500" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="14" fill="#DC2626">← wrong context, generic</text>
+  
+  <rect x="840" y="410" width="560" height="100" rx="12" fill="#F0FDFA" stroke="#0D9488" stroke-width="1"/>
+  <text x="860" y="445" font-family="'Bahnschrift', 'Inter', sans-serif" font-size="12" font-weight="600" fill="#0F766E">TERM: "authentication token"</text>
+  <text x="860" y="475" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="18" fill="#0F172A">"Токен аутентификации"</text>
+  <text x="860" y="500" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="14" fill="#0F766E">← project glossary match</text>
+  
+  <!-- row 2: code -->
+  <rect x="200" y="520" width="560" height="100" rx="12" fill="#FAFAFA" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="220" y="555" font-family="'Bahnschrift', 'Inter', sans-serif" font-size="12" font-weight="600" fill="#64748B">CODE: POST /api/v2/auth</text>
+  <text x="220" y="585" font-family="'Consolas', 'IBM Plex Mono', monospace" font-size="18" fill="#0F172A">POST /api/v2/авторизация</text>
+  <text x="220" y="610" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="14" fill="#DC2626">← endpoint broken</text>
+  
+  <rect x="840" y="520" width="560" height="100" rx="12" fill="#F0FDFA" stroke="#0D9488" stroke-width="1"/>
+  <text x="860" y="555" font-family="'Bahnschrift', 'Inter', sans-serif" font-size="12" font-weight="600" fill="#0F766E">CODE: POST /api/v2/auth</text>
+  <text x="860" y="585" font-family="'Consolas', 'IBM Plex Mono', monospace" font-size="18" fill="#0F172A">POST /api/v2/auth</text>
+  <text x="860" y="610" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="14" fill="#0F766E">← code stays code</text>
+  
+  <!-- row 3: tone -->
+  <rect x="200" y="630" width="560" height="100" rx="12" fill="#FAFAFA" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="220" y="665" font-family="'Bahnschrift', 'Inter', sans-serif" font-size="12" font-weight="600" fill="#64748B">TONE: "Keep it short."</text>
+  <text x="220" y="695" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="18" fill="#0F172A">"Мы должны попросить вас"</text>
+  <text x="220" y="720" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="14" fill="#DC2626">← formal, loses voice</text>
+  
+  <rect x="840" y="630" width="560" height="100" rx="12" fill="#F0FDFA" stroke="#0D9488" stroke-width="1"/>
+  <text x="860" y="665" font-family="'Bahnschrift', 'Inter', sans-serif" font-size="12" font-weight="600" fill="#0F766E">TONE: "Keep it short."</text>
+  <text x="860" y="695" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="18" fill="#0F172A">"Пишем коротко."</text>
+  <text x="860" y="720" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="14" fill="#0F766E">← style preserved</text>
+  
+  <!-- bottom CTA -->
+  <text x="200" y="820" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#0D9488">Follow @fluantu →</text>
+  <text x="1200" y="820" font-family="'IBM Plex Mono', monospace" font-size="13" fill="#64748B">Context-aware translation</text>
+</svg>

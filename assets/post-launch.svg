@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F7F8FA"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  
+  <!-- accent bar top -->
+  <rect x="0" y="0" width="1600" height="6" fill="#0D9488"/>
+  
+  <!-- kicker -->
+  <text x="200" y="120" font-family="'Bahnschrift', 'Inter', sans-serif" font-size="16" font-weight="600" fill="#0F766E" letter-spacing="3">FLUENTU  ·  AI DOCUMENTATION LOCALIZATION</text>
+  
+  <!-- main headline -->
+  <text x="200" y="240" font-family="'Segoe UI Variable Display', 'Inter', sans-serif" font-size="72" font-weight="700" fill="#0F172A" letter-spacing="-2">Your docs are</text>
+  <text x="200" y="320" font-family="'Segoe UI Variable Display', 'Inter', sans-serif" font-size="72" font-weight="700" fill="#0D9488" letter-spacing="-2">going global.</text>
+  
+  <!-- subheadline -->
+  <text x="200" y="420" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="28" fill="#64748B">AI localization with project context.</text>
+  <text x="200" y="460" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="28" fill="#64748B">Terminology, code examples, tone of voice — kept across every language.</text>
+  
+  <!-- features row -->
+  <rect x="200" y="540" width="280" height="180" rx="16" fill="#F0FDFA" stroke="#0D9488" stroke-width="1"/>
+  <text x="230" y="580" font-family="'Bahnschrift', 'Inter', sans-serif" font-size="14" font-weight="600" fill="#0F766E">CONTEXT-AWARE</text>
+  <text x="230" y="620" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="20" fill="#0F172A">Learns your project</text>
+  <text x="230" y="650" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="20" fill="#0F172A">terminology and keeps</text>
+  <text x="230" y="680" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="20" fill="#0F172A">it consistent.</text>
+  
+  <rect x="520" y="540" width="280" height="180" rx="16" fill="#F0FDFA" stroke="#0D9488" stroke-width="1"/>
+  <text x="550" y="580" font-family="'Bahnschrift', 'Inter', sans-serif" font-size="14" font-weight="600" fill="#0F766E">CODE-SAFE</text>
+  <text x="550" y="620" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="20" fill="#0F172A">API endpoints, code</text>
+  <text x="550" y="650" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="20" fill="#0F172A">blocks, and commands</text>
+  <text x="550" y="680" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="20" fill="#0F172A">stay untouched.</text>
+  
+  <rect x="840" y="540" width="280" height="180" rx="16" fill="#F0FDFA" stroke="#0D9488" stroke-width="1"/>
+  <text x="870" y="580" font-family="'Bahnschrift', 'Inter', sans-serif" font-size="14" font-weight="600" fill="#0F766E">TONE OF VOICE</text>
+  <text x="870" y="620" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="20" fill="#0F172A">Adapts to your style:</text>
+  <text x="870" y="650" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="20" fill="#0F172A">formal, casual, or</text>
+  <text x="870" y="680" font-family="'Segoe UI Variable Text', 'Inter', sans-serif" font-size="20" fill="#0F172A">somewhere between.</text>
+  
+  <!-- CTA -->
+  <rect x="200" y="780" width="220" height="56" rx="12" fill="#0D9488"/>
+  <text x="250" y="816" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Follow @fluantu →</text>
+  
+  <!-- bottom right: social proof -->
+  <text x="1200" y="820" font-family="'IBM Plex Mono', monospace" font-size="13" fill="#64748B">Launching in the US · No waitlist</text>
+</svg>

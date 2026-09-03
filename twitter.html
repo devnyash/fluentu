@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Fluentu: X profile assets</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+  :root{--paper:#F7F8FA;--surface:#FFFFFF;--ink:#0F172A;--muted:#64748B;--line:#E2E8F0;--accent:#0D9488;--accent-deep:#0F766E;--accent-tint:#F0FDFA;--ai:#7C3AED;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);-webkit-font-smoothing:antialiased;line-height:1.5}
+  .app{max-width:900px;margin:0 auto;padding:40px 24px 64px}
+  .h{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+  .mark{width:34px;height:34px;border-radius:10px;background:var(--accent);color:#fff;display:grid;place-items:center;font-family:'IBM Plex Mono',monospace;font-size:15px;font-weight:500}
+  .h h1{font-size:26px;font-weight:600;letter-spacing:-.01em}
+  .sub{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:28px}
+  .sub b{color:var(--accent-deep);font-weight:500}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:22px;margin-bottom:28px}
+  .phead{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px}
+  .phead h2{font-size:18px;font-weight:600}
+  .phead .spec{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--muted)}
+  .banner-preview{width:100%;border-radius:12px;border:1px solid var(--line);display:block}
+  .avatar-wrap{display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+  .avatar-img{width:180px;height:180px;border-radius:50%;border:4px solid var(--surface);box-shadow:0 10px 30px -18px rgba(15,23,42,.4)}
+  .avatar-side p{font-size:14px;color:var(--muted);max-width:46ch;margin-bottom:10px}
+  .avatar-side b{color:var(--ink)}
+  .note{border:1px dashed var(--accent);background:var(--accent-tint);border-radius:14px;padding:16px 18px;font-size:13px;color:var(--muted)}
+  .note b{color:var(--accent-deep)}
+  .post-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .post-img{width:100%;border-radius:12px;border:1px solid var(--line);display:block}
+  .post-label{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);margin-top:8px;text-transform:uppercase;letter-spacing:.04em}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="h"><span class="mark">F</span><h1>Fluentu: X profile assets</h1></div>
+  <p class="sub">@fluantu · upload these · <b>raster PNG, flat palette</b></p>
+
+  <div class="panel">
+    <div class="phead"><h2>Banner</h2><span class="spec">assets/banner.png · 1500×500</span></div>
+    <img class="banner-preview" src="assets/banner.png" alt="Banner"/>
+  </div>
+
+  <div class="panel">
+    <div class="phead"><h2>Avatar</h2><span class="spec">assets/logo.png · 512×512</span></div>
+    <div class="avatar-wrap">
+      <img class="avatar-img" src="assets/logo.png" alt="Avatar"/>
+      <div class="avatar-side">
+        <p>Same file works as the favicon. X crops to a circle — keep wordmark centred.</p>
+        <p>Palette: teal <code>#0D9488</code> · purple <code>#7C3AED</code> · ink <code>#0F172A</code></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="phead"><h2>3 Post images</h2><span class="spec">1600×900 · raster PNG</span></div>
+    <div class="post-grid">
+      <div>
+        <img class="post-img" src="assets/post-launch.png" alt="Launch post"/>
+        <div class="post-label">1 · Launch</div>
+      </div>
+      <div>
+        <img class="post-img" src="assets/post-before-after.png" alt="Before/after"/>
+        <div class="post-label">2 · Before &amp; After</div>
+      </div>
+    </div>
+    <div style="margin-top:18px">
+      <img class="post-img" src="assets/post-translation.png" alt="Translation"/>
+      <div class="post-label">3 · How it works</div>
+    </div>
+  </div>
+
+  <div class="note">
+    <b>Design note:</b> all assets are flat raster PNG, no neon, no AI gradients. Teal + purple accent on white/ink. Upload order: header → avatar → posts.
+  </div>
+</div>
+</body>
+</html>
