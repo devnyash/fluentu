@@ -149,7 +149,7 @@
 
 <header class="site">
   <nav class="nav">
-    <div class="brand"><span class="mark">F</span> Fluentu</div>
+    <div class="brand">Fluentu</div>
     <div class="nav-links">
       <a href="#features">Features</a>
       <a href="#how">How it works</a>
@@ -176,17 +176,17 @@
     <div class="live-card" aria-label="Live translation preview">
       <div class="tabs">
         <div class="tab active" onclick="switchTab(this,'en')">English (source)</div>
-        <div class="tab" onclick="switchTab(this,'ru')">Russian (translated)</div>
+        <div class="tab" onclick="switchTab(this,'de')">German (translated)</div>
       </div>
       <div class="pane" id="pane-en">
         <div class="line"><span class="tag tag-term">TERM</span><span><b>Authentication token</b><span class="sub">A unique string that identifies a user session.</span></span></div>
         <div class="line"><span class="tag tag-code">CODE</span><span><code>POST /api/v2/auth</code><span class="sub">Returns a 201 on success.</span></span></div>
         <div class="line"><span class="tag tag-tone">TONE</span><span><b>Keep it short.</b><span class="sub">No marketing fluff. Just the facts.</span></span></div>
       </div>
-      <div class="pane hidden" id="pane-ru">
-        <div class="line"><span class="tag tag-term">TERM</span><span><b>Token autentifikatsii</b><span class="sub">Unikalnaya stroka, identificiruyuschaya sessiyu polzovatelya.</span></span></div>
-        <div class="line"><span class="tag tag-code">CODE</span><span><code>POST /api/v2/auth</code><span class="sub">Vozvrashaet 201 pri uspekhe.</span></span></div>
-        <div class="line"><span class="tag tag-tone">TONE</span><span><b>Pihem korotko.</b><span class="sub">Bez marketingovoy vody. Tolko fakty.</span></span></div>
+      <div class="pane hidden" id="pane-de">
+        <div class="line"><span class="tag tag-term">TERMIN</span><span><b>Authentifizierungs-Token</b><span class="sub">Ein eindeutiger String, der eine Benutzersitzung identifiziert.</span></span></div>
+        <div class="line"><span class="tag tag-code">CODE</span><span><code>POST /api/v2/auth</code><span class="sub">Gibt bei Erfolg 201 zurück.</span></span></div>
+        <div class="line"><span class="tag tag-tone">TON</span><span><b>Halten Sie es kurz.</b><span class="sub">Kein Marketing-Geschwafel. Nur die Fakten.</span></span></div>
       </div>
       <div class="status"><span><span class="dot"></span>Context-aware translation</span><span>98.7% term consistency</span></div>
     </div>
@@ -224,16 +224,16 @@
     <div class="ba-grid">
       <div class="ba-card red">
         <div class="ba-label">Before (generic AI)</div>
-        <div class="ba-row"><span class="tag" style="background:#FEE2E2;color:#DC2626">TERM</span><span><b>Klyuch vhoda v sistemu</b><span class="sub">Wrong context. Generic translation.</span></span></div>
-        <div class="ba-row"><span class="tag" style="background:#FEE2E2;color:#DC2626">CODE</span><span><code>POST /api/v2/avtorizaciya</code><span class="sub">Endpoint broken.</span></span></div>
-        <div class="ba-row"><span class="tag" style="background:#FEE2E2;color:#DC2626">TONE</span><span><b>Dolzhny poprosit vas...</b><span class="sub">Formal. Loses your voice.</span></span></div>
+        <div class="ba-row"><span class="tag" style="background:#FEE2E2;color:#DC2626">TERM</span><span><b>System-Login-Schlüssel</b><span class="sub">Falscher Kontext. Generische Übersetzung.</span></span></div>
+        <div class="ba-row"><span class="tag" style="background:#FEE2E2;color:#DC2626">CODE</span><span><code>POST /api/v2/authentifizierung</code><span class="sub">Endpoint kaputt.</span></span></div>
+        <div class="ba-row"><span class="tag" style="background:#FEE2E2;color:#DC2626">TONE</span><span><b>Wir möchten Sie bitten...</b><span class="sub">Formell. Verliert Ihre Stimme.</span></span></div>
       </div>
       <div class="ba-arrow">→</div>
       <div class="ba-card green">
         <div class="ba-label">After (Fluentu)</div>
-        <div class="ba-row"><span class="tag tag-term">TERM</span><span><b>Token autentifikatsii</b><span class="sub">Project glossary match.</span></span></div>
-        <div class="ba-row"><span class="tag tag-code">CODE</span><span><code>POST /api/v2/auth</code><span class="sub">Code stays code.</span></span></div>
-        <div class="ba-row"><span class="tag tag-tone">TONE</span><span><b>Pihem korotko.</b><span class="sub">Style preserved.</span></span></div>
+        <div class="ba-row"><span class="tag tag-term">TERMIN</span><span><b>Authentifizierungs-Token</b><span class="sub">Projekt-Glossar Treffer.</span></span></div>
+        <div class="ba-row"><span class="tag tag-code">CODE</span><span><code>POST /api/v2/auth</code><span class="sub">Code bleibt Code.</span></span></div>
+        <div class="ba-row"><span class="tag tag-tone">TON</span><span><b>Halten Sie es kurz.</b><span class="sub">Stil bewahrt.</span></span></div>
       </div>
     </div>
   </div>
@@ -307,7 +307,7 @@
 <footer>
   <div class="wrap">
     <div class="f-grid">
-      <div class="f-brand"><div class="brand"><span class="mark">F</span> Fluentu</div><p>AI documentation localization with project context. Terminology, code examples, tone of voice — kept across every language.</p></div>
+      <div class="f-brand"><div class="brand">Fluentu</div><p>AI documentation localization with project context. Terminology, code examples, tone of voice — kept across every language.</p></div>
       <div class="f-col"><h5>Product</h5><a href="#features">Features</a><a href="#how">How it works</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a></div>
       <div class="f-col"><h5>Company</h5><a href="mailto:admin@fluantu.com">Contact</a><a href="https://x.com/fluantu" target="_blank" rel="noopener">X (Twitter)</a><div>Fluentu LLC</div></div>
       <div class="f-col"><h5>Legal</h5><a href="mailto:admin@fluantu.com">Privacy request</a><div>© 2026 Fluentu LLC</div><div>San Francisco, CA</div></div>
